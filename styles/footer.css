@@ -48,10 +48,14 @@ footer{
 
         & .top{
             grid-template-columns: auto 1fr;
-
+            margin-bottom: 5rem;
 
             & nav{
                 margin-left: auto;
+            
+                & ul{
+                    width: 14rem;
+                }
             }
         }
     }
